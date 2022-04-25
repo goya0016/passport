@@ -15,6 +15,10 @@
 		C452BD742588106E00BE193E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C452BD722588106E00BE193E /* LaunchScreen.storyboard */; };
 		C452BD7F2588106E00BE193E /* goya0016_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BD7E2588106E00BE193E /* goya0016_FinalProjectTests.swift */; };
 		C452BD8A2588106E00BE193E /* goya0016_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BD892588106E00BE193E /* goya0016_FinalProjectUITests.swift */; };
+		C452BDA02588115700BE193E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BD9F2588115700BE193E /* SplashViewController.swift */; };
+		C452BDA52588116600BE193E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BDA42588116600BE193E /* InfoViewController.swift */; };
+		C452BDAA2588117500BE193E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BDA92588117500BE193E /* AddViewController.swift */; };
+		C452BDB22588123E00BE193E /* PassportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BDB12588123E00BE193E /* PassportTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C452BD852588106E00BE193E /* goya0016-FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goya0016-FinalProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C452BD892588106E00BE193E /* goya0016_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goya0016_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		C452BD8B2588106E00BE193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C452BD9F2588115700BE193E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C452BDA42588116600BE193E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C452BDA92588117500BE193E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C452BDB12588123E00BE193E /* PassportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				C452BD672588106E00BE193E /* AppDelegate.swift */,
 				C452BD692588106E00BE193E /* SceneDelegate.swift */,
 				C452BD6B2588106E00BE193E /* ViewController.swift */,
+				C452BDA92588117500BE193E /* AddViewController.swift */,
+				C452BD9F2588115700BE193E /* SplashViewController.swift */,
+				C452BDA42588116600BE193E /* InfoViewController.swift */,
+				C452BDB12588123E00BE193E /* PassportTableViewController.swift */,
 				C452BD6D2588106E00BE193E /* Main.storyboard */,
 				C452BD702588106E00BE193E /* Assets.xcassets */,
 				C452BD722588106E00BE193E /* LaunchScreen.storyboard */,
@@ -260,7 +272,11 @@
 			files = (
 				C452BD6C2588106E00BE193E /* ViewController.swift in Sources */,
 				C452BD682588106E00BE193E /* AppDelegate.swift in Sources */,
+				C452BDAA2588117500BE193E /* AddViewController.swift in Sources */,
 				C452BD6A2588106E00BE193E /* SceneDelegate.swift in Sources */,
+				C452BDB22588123E00BE193E /* PassportTableViewController.swift in Sources */,
+				C452BDA52588116600BE193E /* InfoViewController.swift in Sources */,
+				C452BDA02588115700BE193E /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

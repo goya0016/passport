@@ -11,6 +11,11 @@ class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //delaying the excution by 3 seconds
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3.0) {
+            // Code for delayed execution
+            self.performSegue(withIdentifier: "showPassportTableView", sender: Any?.self)
+        }
 
         // Do any additional setup after loading the view.
     }
